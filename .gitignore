@@ -37,3 +37,7 @@ build/
 dist/
 maps/
 .vscode/
+
+# Internal Test Files #
+######################
+src/playground
