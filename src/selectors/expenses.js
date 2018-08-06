@@ -15,7 +15,6 @@ const getVisibleExpenses = (expenses, { text, sortBy, startDate, endDate }) => {
       const textMatch = expense.description
         .toLowerCase()
         .includes(text.toLowerCase());
-      // console.log(textMatch);
       return startDateMatch && endDateMatch && textMatch;
     })
     .sort((a, b) => {
