@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import moment from 'moment';
 import { SingleDatePicker } from 'react-dates';
 import 'react-dates/initialize';
-import 'react-dates/lib/css/_datepicker.css';
 
 // Date
 const now = moment();
@@ -62,7 +61,7 @@ class ExpenseForm extends Component {
   onFocusChange = ({ focused }) => {
     this.setState(() => {
       return {
-        calenderFocused: focused
+        calendarFocused: focused
       };
     });
   };

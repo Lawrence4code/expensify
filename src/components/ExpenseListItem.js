@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const ExpenseListItem = ({ id, description, amount, createdAt }) => {
+export const ExpenseListItem = ({ id, description, amount, createdAt }) => {
   // this part is important, we can pass dispatch along with other information from redux, so no needs of mapStateToProps or props
   return (
     <div>

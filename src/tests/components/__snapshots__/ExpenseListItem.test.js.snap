@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpenseListItem with test expense date 1`] = `
+<div>
+  <Link
+    replace={false}
+    to="/edit/undefined"
+  >
+    <h3>
+       Description: 
+       
+    </h3>
+  </Link>
+  <p>
+    Amount: $
+     - created on: 
+  </p>
+</div>
+`;
