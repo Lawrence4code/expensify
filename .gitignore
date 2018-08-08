@@ -37,7 +37,13 @@ build/
 dist/
 maps/
 .vscode/
+public/bundle.js.map
+public/styles.css
+public/styles.css.map
 
 # Internal Test Files #
 ######################
 src/playground
+
+
+
