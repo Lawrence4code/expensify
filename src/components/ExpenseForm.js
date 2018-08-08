@@ -111,11 +111,13 @@ class ExpenseForm extends Component {
           <SingleDatePicker
             date={this.state.createdAt}
             onDateChange={this.onDateChange}
-            focused={this.state.calenderFocused}
+            focused={this.state.calendarFocused}
             onFocusChange={this.onFocusChange}
             numberOfMonths={1}
             isOutsideRange={() => false}
+            id="single_date_picker"
           />
+
           <textarea
             placeholder="Add a note for your expense"
             value={this.state.note}
