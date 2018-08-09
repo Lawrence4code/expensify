@@ -1,5 +1,3 @@
-// get visible expenses
-
 import moment from 'moment';
 
 const getVisibleExpenses = (expenses, { text, sortBy, startDate, endDate }) => {

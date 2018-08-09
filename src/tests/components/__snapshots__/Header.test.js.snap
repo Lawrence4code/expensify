@@ -20,12 +20,5 @@ exports[`should render Header correctly 1`] = `
   >
     Add Expense
   </NavLink>
-  <NavLink
-    activeClassName="is-active"
-    aria-current="page"
-    to="/edit"
-  >
-    Edit Page
-  </NavLink>
 </header>
 `;
