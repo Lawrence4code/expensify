@@ -86,7 +86,6 @@ class ExpenseForm extends Component {
         createdAt: this.state.createdAt.valueOf(),
         note: this.state.note
       });
-      console.log('onSubmit triggered.');
     }
   };
   render() {

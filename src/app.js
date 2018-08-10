@@ -15,30 +15,30 @@ import './firebase/firebase';
 const store = configureStore();
 
 // addExpense -> water bill
-const expenseOne = store.dispatch(
-  addExpense({
-    description: 'water bill',
-    note: 'February water bill',
-    amount: 4500
-  })
-);
+// const expenseOne = store.dispatch(
+//   addExpense({
+//     description: 'water bill',
+//     note: 'February water bill',
+//     amount: 4500
+//   })
+// );
 
-// addExpense -> gas bill
-const expenseTwo = store.dispatch(
-  addExpense({
-    description: 'gas bill',
-    note: 'February gas bill',
-    createdAt: 1000
-  })
-);
+// // addExpense -> gas bill
+// const expenseTwo = store.dispatch(
+//   addExpense({
+//     description: 'gas bill',
+//     note: 'February gas bill',
+//     createdAt: 1000
+//   })
+// );
 
-const expenseThree = store.dispatch(
-  addExpense({
-    description: 'Rent',
-    note: 'February rent',
-    amount: 109500
-  })
-);
+// const expenseThree = store.dispatch(
+//   addExpense({
+//     description: 'Rent',
+//     note: 'February rent',
+//     amount: 109500
+//   })
+// );
 
 // setTextFilter  -> bill -> water
 
