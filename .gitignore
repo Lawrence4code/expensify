@@ -42,6 +42,8 @@ public/dist/
 # Internal Test Files #
 ######################
 src/playground
+.env.test
+.env.developement
 
 
 
