@@ -10,7 +10,6 @@ export const login = uid => {
 export const startLogin = () => {
   console.log('startLogin triggered.');
   return () => {
-    // console.log('firebase.auth().signInWithPopup(googleAuthProvider) triggered'); // this was not getting triggered without calling the starLogin after return
     return firebase.auth().signInWithPopup(googleAuthProvider);
   };
 };
@@ -24,7 +23,6 @@ export const logout = () => {
 export const startLogout = () => {
   console.log('startLogout triggered');
   return () => {
-    // console.log('firebase.auth().signOut() will trigger');
     return firebase.auth().signOut();
   };
 };
