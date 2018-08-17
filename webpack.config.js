@@ -63,7 +63,9 @@ module.exports = env => {
       contentBase: path.join(__dirname, 'public'),
       historyApiFallback: true,
       publicPath: '/dist/',
-      headers: { 'Access-Control-Allow-Origin': true }
+      headers: {
+        'Access-Control-Allow-Origin': true
+      }
     }
   };
 };

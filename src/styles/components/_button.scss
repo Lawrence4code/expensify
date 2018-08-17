@@ -1,0 +1,21 @@
+.button {
+  display: inline-block;
+  border-radius: 3px;
+  color: $white;
+  padding: $s-size $xl-size;
+  background: $blue;
+  font-size: $font-size-large;
+  text-decoration: none;
+  line-height: 1;
+  border: none;
+}
+
+.button--link {
+  background: none;
+  font-size: $font-size-med;
+}
+
+.button--link:hover {
+  background: none;
+  background: #475163;
+}
