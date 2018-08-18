@@ -2,7 +2,6 @@
   display: flex;
   margin-bottom: $m-size;
   align-items: center;
-  justify-content: space-between;
   flex-direction: column;
   @media (min-width: $desktop-breakpoint) {
     flex-direction: row;
