@@ -5,16 +5,17 @@ import numeral from 'numeral';
 const ExpenseListItem = ({ id, description, amount, createdAt }) => {
   // this part is important, we can pass dispatch along with other information from redux, so no needs of mapStateToProps or props
   return (
-    <div>
-      <Link to={`/edit/${id}`}>
-        <h3> Description: {description} </h3>
-      </Link>
-
-      <p>
-        {numeral(amount / 100).format('$0,0.00')}-
-        {moment(createdAt).format('MMM Do YYYY')}
-      </p>
-    </div>
+    <Link className="list-item" to={`/edit/${id}`}>
+      <div>
+        <h3 className="list-item__title"> {description} </h3>
+        <span className="list-item__subtitle">
+          {moment(createdAt).format('MMM Do YYYY')}
+        </span>
+      </div>
+      <h3 className="list-item__data">
+        {numeral(amount / 100).format('$0,0.00')}
+      </h3>
+    </Link>
   );
 };
 

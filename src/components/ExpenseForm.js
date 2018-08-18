@@ -125,7 +125,7 @@ class ExpenseForm extends Component {
           onChange={this.onNodeChange}
         />
         <div>
-          <button className="button"> Add Expense </button>
+          <button className="button">Save Expense</button>
         </div>
       </form>
     );
